@@ -1,4 +1,4 @@
-* Prolefeed
+# Prolefeed
 
 Prolefeed is a simple Clojure library for fetching RSS/Atom feeds and converting them
 to Clojure data structures.
@@ -12,14 +12,14 @@ related to feed fetching and parsing. It also uses the [RomeFetcher](http://wiki
 library, which employs HTTP conditional GETs and GZip encoded feeds where possible. This minimizes the
 HTTP traffic required to fetch feeds.
 
-** Installation
+## Installation
 
 The easiest way to install Prolefeed is using [Leiningen](http://github.com/technomancy/leiningen).
 Add the following to your dependencies in project.clj:
 
     [prolefeed "0.1-SNAPSHOT"]
 
-** Usage
+## Usage
 
 To simply fetch a feed from a URL, call the `fetch` function:
 
@@ -64,7 +64,7 @@ The data structures returned will have the following form:
                 :description "..."
                 :contents ("...", "...")})}
 
-** License
+## License
 
 Copyright (C) 2010 Tero Parviainen
 
